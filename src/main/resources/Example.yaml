@@ -1,0 +1,6 @@
+var json = ConfigStoreOptions()
+.setType("json")
+.setConfig(new io.vertx.core.json.JsonObject().put("key", "value"))
+
+var json = ConfigStoreOptions()
+.setType("env")
